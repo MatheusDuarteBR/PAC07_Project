@@ -3,7 +3,7 @@
 ## Tabela de conteúdos
 * [Grupo](#grupo)
 * [Introdução](#introducao)
-* [Avaliação de Portfólio:](#avaliacao)
+* [Avaliação de Portfólio](#avaliacao de Portifolio)
 
 ## Grupo:
 * Gabriela Borowiak
@@ -14,7 +14,7 @@
 ## Introdução
 BALBALBLA
 
-## Avaliação de Portifólio:
+## Avaliação de Portifólio
 total = 70%
 
 * Apresentação	            25%
