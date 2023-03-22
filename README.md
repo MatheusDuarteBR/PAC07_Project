@@ -6,10 +6,10 @@
 * [Avaliação de Portfólio](#avaliacao)
 
 ## Grupo:
-Gabriela Borowiak
-Matheus Duarte
-Vinicius Marostica
-Vitor Tomasi
+* Gabriela Borowiak
+* Matheus Duarte
+* Vinicius Marostica
+* Vitor Tomasi
 
 ## Introdução
 BALBALBLA
