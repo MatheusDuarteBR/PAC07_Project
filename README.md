@@ -5,18 +5,18 @@
 * [Introdução](#introducao)
 * [Avaliação de Portfólio](#avaliacao)
 
-##Grupo:
+## Grupo:
 Gabriela Borowiak
 Matheus Duarte
 Vinicius Marostica
 Vitor Tomasi
 
-##Introdução
+## Introdução
 BALBALBLA
 
-##Avaliação de Portifólio:
-*total = 70%
+## Avaliação de Portifólio:
+total = 70%
 
-*Apresentação	            25%
-*Documentação	            20%
-*Estruturas de Engenharia	25%
+Apresentação	            25%
+Documentação	            20%
+Estruturas de Engenharia	25%
