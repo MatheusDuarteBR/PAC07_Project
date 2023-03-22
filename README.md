@@ -1,11 +1,11 @@
-## Sistema de gerenciamento escolar
+# Sistema de gerenciamento escolar
 
 ## Tabela de conteúdos
 * [Grupo](#grupo)
 * [Introdução](#introducao)
 * [Avaliação de Portfólio](#avaliacao)
 
-## Grupo:
+# Grupo:
 * Gabriela Borowiak
 * Matheus Duarte
 * Vinicius Marostica
@@ -17,7 +17,7 @@
 #### Nosso objetivo é criar um sistema intuitivo que permita aos usuários acessar rapidamente as informações de que precisam, sem se perder em menus complicados ou funções desnecessárias. Com esse aplicativo, os administradores escolares poderão gerenciar facilmente as informações dos alunos, horários de aulas, atividades extracurriculares e muito mais. Os professores poderão registrar as notas dos alunos e atribuir tarefas, tudo em um só lugar. E os pais e alunos terão acesso a informações atualizadas sobre as notas, faltas e eventos escolares. 
 #### Em resumo, nosso aplicativo de sistema de gerenciamento escolar tornará a gestão escolar mais fácil e eficiente, permitindo que todos os envolvidos no processo educacional se concentrem no que realmente importa: a educação.
 
-## Avaliação de Portifólio
+# Avaliação de Portifólio
 total = 70%
 
 * Apresentação	            25%
