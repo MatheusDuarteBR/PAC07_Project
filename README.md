@@ -17,7 +17,7 @@
 #### Os sistemas de recomendações de livros geralmente utilizam dados como as preferências do usuário, seu histórico de leitura, avaliações de livros e informações sobre as características dos livros, como gênero, autor e editora, para fornecer sugestões personalizadas. Esses sistemas têm como objetivo tornar mais fácil para os usuários descobrir novos livros que possam ser de seu interesse, tornando a experiência de compra e leitura mais satisfatória e eficiente.
 #### Em resumo, nosso aplicativo de sistema de recomendações terá como objetivo auxiliar o leitor a encontrar livros com base nas suas leituras, pois muitas vezes o leitor tem dificuldade em saber mais sobre o livro sem "spoilers".
 
-# Problemas listados
+# Problemas Listados
 #### Sobrecarga de opções: Com a grande quantidade de livros disponíveis no mercado, muitas vezes é difícil para os usuários encontrarem livros que sejam do seu interesse. Um sistema de recomendações pode ajudar a filtrar as opções e apresentar sugestões relevantes.
 
 #### Descoberta de novos livros: Alguns usuários podem ter dificuldades em encontrar livros que nunca ouviram falar ou que não estão presentes nas listas de mais vendidos. Um sistema de recomendações pode ajudar a descobrir novos títulos com base nos interesses do usuário.
@@ -29,7 +29,7 @@
 #### Aumento de vendas: Um sistema de recomendações eficiente pode aumentar as vendas de livros, ao apresentar sugestões relevantes e personalizadas aos usuários, incentivando a compra de livros que talvez não fossem considerados em outras circunstâncias.
 
 # Avaliação de Portifólio
-total = 70%
+Total = 70%
 
 * Apresentação	            25%
 * Documentação	            20%
