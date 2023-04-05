@@ -1,4 +1,4 @@
-# Sistema de gerenciamento escolar
+# Sistema de Recomendação de livros
 
 ## Tabela de conteúdos
 * [Grupo](#grupo)
@@ -10,6 +10,7 @@
 * Matheus Duarte
 * Vinicius Marostica
 * Vitor Tomasi
+* Khaue Souza
 
 # Introdução
 #### Um sistema de recomendações de livros é uma aplicação que utiliza algoritmos de machine learning e inteligência artificial para recomendar livros aos usuários, com base em seus interesses e histórico de leitura. 
