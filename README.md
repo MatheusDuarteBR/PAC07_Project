@@ -30,8 +30,33 @@
 #### Aumento de vendas: Um sistema de recomendações eficiente pode aumentar as vendas de livros, ao apresentar sugestões relevantes e personalizadas aos usuários, incentivando a compra de livros que talvez não fossem considerados em outras circunstâncias.
 
 # Avaliação de Portifólio
+
+
+
 Total = 70%
 
 * Apresentação	            25%
 * Documentação	            20%
 * Estruturas de Engenharia	25%
+
+# Funcionalidade UI
+
+
+#### Cadastro: Informar os seus dados para realizar o cadastramento no sistema para após ter acesso regular ao sistema.
+
+#### Login: Tem como objetivo informar os seus dados para realizar o login e ter acesso ao sistema.
+
+#### Recomendados: O sistema em base dos livros inseridos em sua perfil irá indicar titulos parecidos, trazendo para o usuário seu nome e seu respectivo autor
+
+#### Perfil: trás informações dos livros inseridos e salvos pelo usuário
+
+# BackAnd(IA)
+
+#### Com a base de livros da API do Google Books, a IA processa as informações e encontra livros semelhantes com base em critérios de similaridade.
+
+#### Uso
+#### Para usar este trecho de código, você pode seguir estas etapas:
+
+#### Certifique-se de ter o Python instalado em seu ambiente.
+#### Copie o código e cole-o em um arquivo com a extensão .ipynb (por exemplo, TesteLivroPAC7.ipynb).
+#### Execute o arquivo em um ambiente Python, como Jupyter Notebook ou Google Colab.
