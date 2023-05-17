@@ -1,0 +1,247 @@
+.root {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle32 {
+  position: absolute;
+  left: 133px;
+  top: 223px;
+  width: 1176px;
+  height: 758px;
+  border-radius: 20px;
+  background-color: #d9d9d936;
+  box-shadow: 2px 4px 4px 0px #00000040;
+}
+.rectangle10 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 96px;
+  background-color: #7b97a0;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle11 {
+  position: absolute;
+  left: 0;
+  top: 84px;
+  width: 1440px;
+  height: 97px;
+  background-color: #33515a;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.emAlta {
+  color: #fff;
+  font-size: 28px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 629px;
+  top: 110px;
+  width: min-content;
+  height: min-content;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.recomendados {
+  color: #fff;
+  font-size: 28px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 381px;
+  top: 110px;
+  width: min-content;
+  height: min-content;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.favoritos {
+  color: #fff;
+  font-size: 28px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 199px;
+  top: 114px;
+  width: min-content;
+  height: min-content;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.bibliotecaInteligente {
+  color: #000;
+  font-size: 40px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 26px;
+  width: 487px;
+  height: 85px;
+  text-shadow: 0px 4px 4px #00000040;
+  flex-direction: column;
+}
+.icon {
+  position: absolute;
+  left: 12px;
+  top: 26px;
+  width: 50px;
+  height: 45px;
+  background-image:/* webpackIgnore: true */ url('assets/icon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inicio {
+  color: #fff;
+  font-size: 28px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 110px;
+  width: min-content;
+  height: min-content;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle12 {
+  position: absolute;
+  left: 962px;
+  top: 104px;
+  width: 344px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.vector {
+  position: absolute;
+  left: 67.7778%;
+  right: 29.7917%;
+  top: 11.4258%;
+  bottom: 85.1563%;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.accountCircle {
+  position: absolute;
+  left: 1351px;
+  top: 110px;
+  width: 48px;
+  height: 48px;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.maleUser {
+  position: absolute;
+  left: 133px;
+  top: 255px;
+  width: 106px;
+  height: 106px;
+  background-image:/* webpackIgnore: true */ url('assets/maleUser.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.usuario {
+  color: #000;
+  font-size: 27px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 258px;
+  top: 291px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.minhasInformacoes {
+  color: #000;
+  font-size: 23px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 447px;
+  top: 435px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.configuracoes {
+  color: #000;
+  font-size: 23px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 982px;
+  top: 435px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.meusLivros {
+  color: #000;
+  font-size: 23px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 253px;
+  top: 435px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.line3 {
+  position: absolute;
+  left: 251px;
+  top: 478px;
+  width: 940px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #0000004d;
+  margin-bottom: -1px;
+}
+.notificacoes {
+  color: #000;
+  font-size: 23px;
+  font-family: Gabriela, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 740px;
+  top: 435px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.circleNotifications {
+  position: absolute;
+  left: 875px;
+  top: 429px;
+  width: 40px;
+  height: 40px;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
