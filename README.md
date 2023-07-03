@@ -46,7 +46,8 @@ Total = 70%
 
 * Login: Tem como objetivo informar os seus dados para realizar o login e ter acesso ao sistema.
 
-  <img src=”Images/Login.png”>
+  ![Login](Images/Login.png)
+
 
 * Recomendados: O sistema em base dos livros inseridos em sua perfil irá indicar titulos parecidos, trazendo para o usuário seu nome e seu respectivo autor
 
