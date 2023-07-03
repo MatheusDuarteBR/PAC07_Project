@@ -42,22 +42,22 @@ Total = 70%
 # Funcionalidade UI
 
 
-* Cadastro: Informar os seus dados para realizar o cadastramento no sistema para após ter acesso regular ao sistema.
+*## Cadastro: Informar os seus dados para realizar o cadastramento no sistema para após ter acesso regular ao sistema.
 
   ![Cadastro](Images/Register.png)
 
-* Login: Tem como objetivo informar os seus dados para realizar o login e ter acesso ao sistema.
+##* Login: Tem como objetivo informar os seus dados para realizar o login e ter acesso ao sistema.
 
   ![Login](Images/Login.png)
 
 
-* Recomendados: O sistema em base dos livros inseridos em sua perfil irá indicar titulos parecidos, trazendo para o usuário seu nome e seu respectivo autor.
+##* Recomendados: O sistema em base dos livros inseridos em sua perfil irá indicar titulos parecidos, trazendo para o usuário seu nome e seu respectivo autor.
 
    ![Login](Images/NewBooks.png)
 
-* Perfil: Trás informações dos livros inseridos e salvos pelo usuário.
+##* Perfil: Trás informações dos livros inseridos e salvos pelo usuário.
 
-* Tela principal: Aparecem livros aleatórios que o usuário pode visualizar/baixar.
+##* Tela principal: Aparecem livros aleatórios que o usuário pode visualizar/baixar.
 
    ![Login](Images/PrincipalScreen.png)
 
