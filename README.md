@@ -81,10 +81,11 @@ Por fim, as recomendações são impressas, mostrando o título, autor, gênero 
 
 # Bibliotecas utilizadas
 #### Requests: biblioteca HTTP para fazer requisições à API do Google Books.
-scikit-learn: biblioteca de aprendizado de máquina para calcular similaridade do cosseno e vetorização TF-IDF.
-spaCy: biblioteca de processamento de linguagem natural para o pré-processamento de texto.
-Contribuição
-Sinta-se à vontade para contribuir com melhorias no código, novas funcionalidades ou correções de bugs. Basta abrir uma nova issue ou enviar um pull request.
+#### scikit-learn: biblioteca de aprendizado de máquina para calcular similaridade do cosseno e vetorização TF-IDF.
+#### spaCy: biblioteca de processamento de linguagem natural para o pré-processamento de texto.
 
-Licença
-Este projeto está licenciado sob a MIT License.
+# Contribuição
+#### Sinta-se à vontade para contribuir com melhorias no código, novas funcionalidades ou correções de bugs. Basta abrir uma nova issue ou enviar um pull request.
+
+# Licença
+#### Este projeto está licenciado sob a MIT License.
