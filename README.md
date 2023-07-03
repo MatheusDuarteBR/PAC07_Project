@@ -60,7 +60,7 @@ Total = 70%
 
 ## Como o código funciona em si ?
 * A função buscar_info_livro(titulo) é responsável por fazer uma chamada à API do Google Books para obter informações sobre um livro com base no título fornecido. Ela retorna um dicionário contendo as informações relevantes do livro, como título, autor, gênero e sinopse.
-  ```
+  ```python
   def buscar_info_livro(titulo):
     url = f"https://www.googleapis.com/books/v1/volumes?q={titulo}"
     response = requests.get(url)
