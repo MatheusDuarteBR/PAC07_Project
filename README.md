@@ -62,7 +62,7 @@ Total = 70%
 #### Execute o arquivo em um ambiente Python, como Jupyter Notebook ou Google Colab.
 
 
-##Como o código funciona em si ?
+## Como o código funciona em si ?
 A função buscar_info_livro(titulo) é responsável por fazer uma chamada à API do Google Books para obter informações sobre um livro com base no título fornecido. Ela retorna um dicionário contendo as informações relevantes do livro, como título, autor, gênero e sinopse.
 
 A função obter_recomendacoes_livros(livros, user_preference, livros_recomendados) recebe uma lista de livros, a preferência do usuário e uma lista de livros já recomendados anteriormente. Ela itera sobre os livros fornecidos e chama a função buscar_info_livro para obter as informações relevantes de cada livro.
@@ -79,8 +79,8 @@ No exemplo de uso, uma lista de livros, a preferência do usuário e uma lista v
 
 Por fim, as recomendações são impressas, mostrando o título, autor, gênero e sinopse de cada livro recomendado. Se nenhuma recomendação for encontrada, uma mensagem apropriada é exibida.
 
-####Bibliotecas utilizadas
-Requests: biblioteca HTTP para fazer requisições à API do Google Books.
+# Bibliotecas utilizadas
+#### Requests: biblioteca HTTP para fazer requisições à API do Google Books.
 scikit-learn: biblioteca de aprendizado de máquina para calcular similaridade do cosseno e vetorização TF-IDF.
 spaCy: biblioteca de processamento de linguagem natural para o pré-processamento de texto.
 Contribuição
