@@ -71,14 +71,38 @@ Total = 70%
     return None
 
 * A função obter_recomendacoes_livros(livros, user_preference, livros_recomendados) recebe uma lista de livros, a preferência do usuário e uma lista de livros já recomendados anteriormente. Ela itera sobre os livros fornecidos e chama a função buscar_info_livro para obter as informações relevantes de cada livro.
+  ```python
+  def obter_recomendacoes_livros(livros, user_preference, livros_recomendados):
+    book_infos = []
+    for livro in livros:
+        if livro not in livros_recomendados:
+            livro_info = buscar_info_livro(livro)
+            if livro_info:
+                book_infos.append(livro_info)
 
 * Em seguida, a função cria um vetorizador TF-IDF usando a classe TfidfVectorizer do scikit-learn. Ele processa as sinopses dos livros obtidas anteriormente e cria uma matriz de características TF-IDF a partir dessas sinopses.
+  ```python
+  corpus = [livro["sinopse"] for livro in relevant_info]
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix = vectorizer.fit_transform(corpus)
 
 * A função calcula a similaridade entre as sinopses dos livros e a preferência do usuário usando o algoritmo de similaridade do cosseno. O vetor TF-IDF da preferência do usuário é calculado e comparado com a matriz TF-IDF das sinopses dos livros. Isso resulta em uma medida de similaridade entre cada livro e a preferência do usuário.
+  ```python
+  user_vector = vectorizer.transform([user_preference])
+    similarities = cosine_similarity(user_vector, tfidf_matrix)
+    similar_indices = similarities.argsort()[0][-2::-1]
+
 
 * Com base na similaridade calculada, a função obtém os índices dos livros mais similares e retorna uma lista de recomendações contendo as informações relevantes desses livros.
+  ```python
+  recomendacoes = [relevant_info[i] for i in similar_indices]
 
 * A lista de livros recomendados é atualizada e retornada pela função. Os livros recomendados são adicionados à lista livros_recomendados para evitar recomendações duplicadas.
+  ```python
+  for livro in recomendacoes:
+        livros_recomendados.append(livro["titulo"])
+
+    return recomendacoes
 
 * No exemplo de uso, uma lista de livros, a preferência do usuário e uma lista vazia de livros recomendados são fornecidos. A função obter_recomendacoes_livros é chamada para obter as recomendações com base nas preferências do usuário.
 
