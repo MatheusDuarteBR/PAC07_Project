@@ -58,6 +58,10 @@ Total = 70%
 
 * Certifique-se de ter o Python instalado em seu ambiente. Copie o código e cole-o em um arquivo com a extensão .ipynb (por exemplo, SEULIVRO.ipynb). Execute o arquivo em um ambiente Python, como Jupyter Notebook ou Google Colab.
 
+* Foi utilizada a teclonogia chamada de TF-IDF que combina o TF e o IDF para atribuir um valor numérico a cada termo em um documento. O resultado é uma representação vetorial em que cada dimensão representa um termo e o valor do elemento indica a importância desse termo no documento.
+
+* A representação vetorial do TF-IDF é frequentemente usada para alimentar modelos de aprendizado de máquina em tarefas de NLP, como classificação de texto, agrupamento de documentos, recuperação de informações e muito mais.
+
 ## Como o código funciona em si ?
 * A função buscar_info_livro(titulo) é responsável por fazer uma chamada à API do Google Books para obter informações sobre um livro com base no título fornecido. Ela retorna um dicionário contendo as informações relevantes do livro, como título, autor, gênero e sinopse.
   ```python
