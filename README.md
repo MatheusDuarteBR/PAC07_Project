@@ -59,23 +59,23 @@ Total = 70%
 #### Certifique-se de ter o Python instalado em seu ambiente. Copie o código e cole-o em um arquivo com a extensão .ipynb (por exemplo, SEULIVRO.ipynb). Execute o arquivo em um ambiente Python, como Jupyter Notebook ou Google Colab.
 
 ## Como o código funciona em si ?
-#### 1- A função buscar_info_livro(titulo) é responsável por fazer uma chamada à API do Google Books para obter informações sobre um livro com base no título fornecido. Ela retorna um dicionário contendo as informações relevantes do livro, como título, autor, gênero e sinopse.
+* A função buscar_info_livro(titulo) é responsável por fazer uma chamada à API do Google Books para obter informações sobre um livro com base no título fornecido. Ela retorna um dicionário contendo as informações relevantes do livro, como título, autor, gênero e sinopse.
 
-#### 2- A função obter_recomendacoes_livros(livros, user_preference, livros_recomendados) recebe uma lista de livros, a preferência do usuário e uma lista de livros já recomendados anteriormente. Ela itera sobre os livros fornecidos e chama a função buscar_info_livro para obter as informações relevantes de cada livro.
+* A função obter_recomendacoes_livros(livros, user_preference, livros_recomendados) recebe uma lista de livros, a preferência do usuário e uma lista de livros já recomendados anteriormente. Ela itera sobre os livros fornecidos e chama a função buscar_info_livro para obter as informações relevantes de cada livro.
 
-#### 3- Em seguida, a função cria um vetorizador TF-IDF usando a classe TfidfVectorizer do scikit-learn. Ele processa as sinopses dos livros obtidas anteriormente e cria uma matriz de características TF-IDF a partir dessas sinopses.
+* Em seguida, a função cria um vetorizador TF-IDF usando a classe TfidfVectorizer do scikit-learn. Ele processa as sinopses dos livros obtidas anteriormente e cria uma matriz de características TF-IDF a partir dessas sinopses.
 
-#### 4- A função calcula a similaridade entre as sinopses dos livros e a preferência do usuário usando o algoritmo de similaridade do cosseno. O vetor TF-IDF da preferência do usuário é calculado e comparado com a matriz TF-IDF das sinopses dos livros. Isso resulta em uma medida de similaridade entre cada livro e a preferência do usuário.
+* A função calcula a similaridade entre as sinopses dos livros e a preferência do usuário usando o algoritmo de similaridade do cosseno. O vetor TF-IDF da preferência do usuário é calculado e comparado com a matriz TF-IDF das sinopses dos livros. Isso resulta em uma medida de similaridade entre cada livro e a preferência do usuário.
 
-#### 5- Com base na similaridade calculada, a função obtém os índices dos livros mais similares e retorna uma lista de recomendações contendo as informações relevantes desses livros.
+* Com base na similaridade calculada, a função obtém os índices dos livros mais similares e retorna uma lista de recomendações contendo as informações relevantes desses livros.
 
-#### 6- A lista de livros recomendados é atualizada e retornada pela função. Os livros recomendados são adicionados à lista livros_recomendados para evitar recomendações duplicadas.
+* A lista de livros recomendados é atualizada e retornada pela função. Os livros recomendados são adicionados à lista livros_recomendados para evitar recomendações duplicadas.
 
-#### 7- No exemplo de uso, uma lista de livros, a preferência do usuário e uma lista vazia de livros recomendados são fornecidos. A função obter_recomendacoes_livros é chamada para obter as recomendações com base nas preferências do usuário.
+* No exemplo de uso, uma lista de livros, a preferência do usuário e uma lista vazia de livros recomendados são fornecidos. A função obter_recomendacoes_livros é chamada para obter as recomendações com base nas preferências do usuário.
 
-#### 8- Por fim, as recomendações são impressas, mostrando o título, autor, gênero e sinopse de cada livro recomendado. Se nenhuma recomendação for encontrada, uma mensagem apropriada é exibida.
+* Por fim, as recomendações são impressas, mostrando o título, autor, gênero e sinopse de cada livro recomendado. Se nenhuma recomendação for encontrada, uma mensagem apropriada é exibida.
 
 # Bibliotecas utilizadas
-#### Requests: biblioteca HTTP para fazer requisições à API do Google Books.
-#### scikit-learn: biblioteca de aprendizado de máquina para calcular similaridade do cosseno e vetorização TF-IDF.
-#### spaCy: biblioteca de processamento de linguagem natural para o pré-processamento de texto.
+* Requests: biblioteca HTTP para fazer requisições à API do Google Books.
+* scikit-learn: biblioteca de aprendizado de máquina para calcular similaridade do cosseno e vetorização TF-IDF.
+* spaCy: biblioteca de processamento de linguagem natural para o pré-processamento de texto.
