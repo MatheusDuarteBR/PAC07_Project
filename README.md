@@ -107,6 +107,9 @@ Total = 70%
 * No exemplo de uso, uma lista de livros, a preferência do usuário e uma lista vazia de livros recomendados são fornecidos. A função obter_recomendacoes_livros é chamada para obter as recomendações com base nas preferências do usuário.
 
 * Por fim, as recomendações são impressas, mostrando o título, autor, gênero e sinopse de cada livro recomendado. Se nenhuma recomendação for encontrada, uma mensagem apropriada é exibida.
+  ```
+  ![image](https://github.com/MatheusDuarteBR/PAC07_Project/assets/17799967/46b5c0eb-856d-40be-90c1-2d1a15383d0b)
+
 
 # Bibliotecas utilizadas
 * Requests: biblioteca HTTP para fazer requisições à API do Google Books.
