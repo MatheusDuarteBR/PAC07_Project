@@ -109,15 +109,15 @@ Total = 70%
 * Por fim, as recomendações são impressas, mostrando o título, autor, gênero e sinopse de cada livro recomendado. Se nenhuma recomendação for encontrada, uma mensagem apropriada é exibida.
   ```
   Livros recomendados:
-Título:  Negócios na Internet
-Autor:  On Line Editora
-Gênero:  Business & Economics
-Sinopse:  Reunir as melhores matérias publicadas na Meu Próprio Negócio sobre o mundo digital já entrou para as tarefas anuais da redação. Afinal, não tem interesse mais crescente entre nossos leitores do que o empreendedorismo e boas ações de gestão que envolvam a web e suas tantas ferramentas. Para que você conte com um bom apanhado de informações que possam tanto inspirá-lo a novos negócios quanto ajudá-lo a incrementar o seu, confira o resultado desta edição especial Negócios na Internet.
-
-Título:  American Muscle Cars 2022
-Autor:  Editors of Motorbooks
-Gênero:  Transportation
-Sinopse:  Behold some of America’s most brutish performance machines in this stunning 16-month wall calendar. American Muscle Cars 2022 features more than a year’s worth of stunning photography depicting beautiful, brawny muscle cars spanning the 1960s to today. With a convenient page that shows the months of September, October, November, and December 2021, followed by individual pages for the months of 2022, this 12” × 12” wall calendar brings you incredible spreads showcasing some of the rarest and most outrageous high-performance cars ever to explode onto the scene. Inside you’ll find powerful offerings from the Dodge, Plymouth, AMC, Chevrolet, Pontiac, and Buick brands. Keep yourself on track while enjoying America’s fastest, rarest, and most glorious high-performance vehicles.
+  Título:  Negócios na Internet
+  Autor:  On Line Editora
+  Gênero:  Business & Economics
+  Sinopse:  Reunir as melhores matérias publicadas na Meu Próprio Negócio sobre o mundo digital já entrou para as tarefas anuais da redação. Afinal, não tem interesse mais crescente entre nossos leitores do que o empreendedorismo e boas ações de gestão que envolvam a web e suas tantas ferramentas. Para que você conte com um bom apanhado de informações que possam tanto inspirá-lo a novos negócios quanto ajudá-lo a incrementar o seu, confira o resultado desta edição especial Negócios na Internet.
+  
+  Título:  American Muscle Cars 2022
+  Autor:  Editors of Motorbooks
+  Gênero:  Transportation
+  Sinopse:  Behold some of America’s most brutish performance machines in this stunning 16-month wall calendar. American Muscle Cars 2022 features more than a year’s worth of stunning photography depicting beautiful, brawny muscle cars spanning the 1960s to today. With a convenient page that shows the months of September, October, November, and December 2021, followed by individual pages for the months of 2022, this 12” × 12” wall calendar brings you incredible spreads showcasing some of the rarest and most outrageous high-performance cars ever to explode onto the scene. Inside you’ll find powerful offerings from the Dodge, Plymouth, AMC, Chevrolet, Pontiac, and Buick brands. Keep yourself on track while enjoying America’s fastest, rarest, and most glorious high-performance vehicles.
 
 
 
