@@ -53,13 +53,22 @@ Total = 70%
 # Backend(IA)
 
 * Com a base de livros da API do Google Books, a IA processa as informações e encontra livros semelhantes com base em critérios de similaridade.
-* 
+   
 * Para usar este trecho de código, você pode seguir estas etapas:
 
 * Certifique-se de ter o Python instalado em seu ambiente. Copie o código e cole-o em um arquivo com a extensão .ipynb (por exemplo, SEULIVRO.ipynb). Execute o arquivo em um ambiente Python, como Jupyter Notebook ou Google Colab.
 
 ## Como o código funciona em si ?
 * A função buscar_info_livro(titulo) é responsável por fazer uma chamada à API do Google Books para obter informações sobre um livro com base no título fornecido. Ela retorna um dicionário contendo as informações relevantes do livro, como título, autor, gênero e sinopse.
+  ```
+  def buscar_info_livro(titulo):
+    url = f"https://www.googleapis.com/books/v1/volumes?q={titulo}"
+    response = requests.get(url)
+    data = json.loads(response.text)
+    if data["totalItems"] > 0:
+        book_info = data["items"][0]["volumeInfo"]
+        return book_info
+    return None
 
 * A função obter_recomendacoes_livros(livros, user_preference, livros_recomendados) recebe uma lista de livros, a preferência do usuário e uma lista de livros já recomendados anteriormente. Ela itera sobre os livros fornecidos e chama a função buscar_info_livro para obter as informações relevantes de cada livro.
 
